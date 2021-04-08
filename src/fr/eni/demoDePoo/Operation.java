@@ -71,5 +71,4 @@ public class Operation {
 		return builder.toString();
 	}
 
-
 }
