@@ -14,5 +14,9 @@ public class Operation {
 		this.montant = montant;
 	}
 	
+	private String retrait;
+	private String depot;
+	private String decouvert;
+	private String virement
 
 }
