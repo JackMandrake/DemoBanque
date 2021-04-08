@@ -9,7 +9,7 @@ public class DemoBanque {
 		Banque banque = new Banque();
 	
 		fr.eni.demoDePoo.Banque banqueBnp = new Banque("BNP","Quimper","un truc chelou",2);
-		fr.eni.demoDePoo.Banque banqueBnp = new Banque("TEST","TEST","TEST",3);
+		fr.eni.demoDePoo.Banque banqueBnp2 = new Banque("TEST","TEST","TEST",3);
 //		banqueBnp.nom = "BNP";
 //		banqueBnp.ville = "Quimper";
 //		banqueBnp.logo = "un truc chelou";
