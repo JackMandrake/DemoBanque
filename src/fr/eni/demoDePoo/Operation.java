@@ -6,6 +6,7 @@ public class Operation {
 	private String depot;
 	private String decouvert;
 	private String virement;
+  private int montant;
 
 	public Operation(String retrait, String depot, String decouvert, String virement) {
 		super();
@@ -46,6 +47,14 @@ public class Operation {
 	public void setVirement(String virement) {
 		this.virement = virement;
 	}
+  
+  public int getMontant() {
+		return montant;
+	}
+
+	public void setMontant(int montant) {
+		this.montant = montant;
+	}
 
 	@Override
 	public String toString() {
@@ -61,5 +70,6 @@ public class Operation {
 		builder.append("]");
 		return builder.toString();
 	}
+
 
 }
